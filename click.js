@@ -1,14 +1,13 @@
 //declare samecolor() here
 function samecolor(){
-    const doc = documet;
     let color = "#009900";
 
-    let divs = doc.querySelectorAll("#samecolor div")
+    let divs = document.querySelectorAll("#samecolor div");
 
-    for(var i = 0; i < array.length; i++;)
-    divs[0].style.backgroundcolor = color;
-    divs[0].height
-
+    for(var i = 0; i < divs.length; i++;){
+    divs[i].style.backgroundColor = color;
+    divs[i].style.ocapity = 0.30;
+  }
 }
 //declare diffcolor() here
 function diffcolor(){
